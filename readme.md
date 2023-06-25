@@ -9,6 +9,7 @@ On this repository, is specified for API automation testing using Mocha Chai.
 - npm install supertest
 - npm install mocha
 - npm install chai
+- npm install mochawesome
 
 ### How to run 
 npx mocha test\kasirAja-tugas4.js
