@@ -12,7 +12,11 @@ On this repository, is specified for API automation testing using Mocha Chai.
 - npm install mochawesome
 
 ### How to run 
-npx mocha test\kasirAja-tugas4.js
+- npx mocha test\kasirAja-tugas4.js
+
+### How to run with Mochawesome UI Report
+- npx mocha test\spec\postUser.js --reporter mochawesome
+- open mochawesome-report\mochawesome.html
 
 ### Execution Screenshot
 ![alt text](https://)
