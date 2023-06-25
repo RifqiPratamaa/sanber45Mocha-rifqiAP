@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-25T13:28:55.842Z",
+    "end": "2023-06-25T13:28:56.236Z",
+    "duration": 394,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "04ae6f8a-6337-44e0-92de-2b11de2ae5a5",
+      "title": "",
+      "fullFile": "D:\\Playground\\sanber45Mocha-rifqiAP\\test\\kasirAja-tugas4.js",
+      "file": "\\test\\kasirAja-tugas4.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "518937c6-4002-4c83-b31f-8268d941d241",
+          "title": "Store Registration - Auth",
+          "fullFile": "D:\\Playground\\sanber45Mocha-rifqiAP\\test\\kasirAja-tugas4.js",
+          "file": "\\test\\kasirAja-tugas4.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Status equal 201 (created)",
+              "fullTitle": "Store Registration - Auth Status equal 201 (created)",
+              "timedOut": false,
+              "duration": 386,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).status).to.equal(201);\nconsole.log(\"Response StatusCode: \"+(await response).statusCode);",
+              "err": {},
+              "uuid": "05ca511c-fb79-4819-87c7-c94d78ab3104",
+              "parentUUID": "518937c6-4002-4c83-b31f-8268d941d241",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Status Body equal 'Toko Berhasil didaftarkan",
+              "fullTitle": "Store Registration - Auth Status Body equal 'Toko Berhasil didaftarkan",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).body.message).to.equal(\"Toko berhasil didaftarkan\");\nconsole.log(\"Response Body 'Status': \"+(await response).body.message);",
+              "err": {},
+              "uuid": "f9884d1b-629e-4b67-a02c-6311b9c298af",
+              "parentUUID": "518937c6-4002-4c83-b31f-8268d941d241",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "05ca511c-fb79-4819-87c7-c94d78ab3104",
+            "f9884d1b-629e-4b67-a02c-6311b9c298af"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 387,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

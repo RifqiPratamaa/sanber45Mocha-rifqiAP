@@ -1,0 +1,6 @@
+/node_modules
+/test/spec
+/test/suite
+/data/dataUser.js
+/object-repository
+/schema
